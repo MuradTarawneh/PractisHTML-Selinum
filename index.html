@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media</title>
 </head>
+
 <body>
     <h1>Please select one of them:</h1>
-<select>
-    <option><a href="https://www.facebook.com">Facebook</a></option>
-    <option><a href="https://www.instagram.com">Instagram</a></option>
-    <option><a href="https://www.linkedin.com">Linkedin</a></option>
-    <option><a>X</a></option>
-</select>
+<!--     <select>
+        <option>Facebook</option>
+        <option>Instagram</option>
+        <option>Linkedin</option>
+        <option>X</option>
+    </select> -->
+
+    <select onchange="window.open(this.value);">
+        <option value="https://www.facebook.com">Facebook</option>
+        <option value="https://www.instagram.com">Instagram</option>
+        <option value="https://www.linkedin.com">Linkedin</option>
+        <option value="https://www.x.com">X</option>
+
+    </select>
+
+
 </body>
+
 </html>
